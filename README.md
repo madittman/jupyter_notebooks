@@ -9,8 +9,7 @@ This project uses Python 3.13.5 and a virtual environment for dependency managem
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/madittman/jupyter_notebooks.git](https://github.com/madittman/jupyter_notebooks.git)
-    cd my_python_project
+    git clone https://github.com/madittman/jupyter_notebooks.git
     ```
 
 2.  **Create and activate the virtual environment:**
@@ -22,6 +21,7 @@ This project uses Python 3.13.5 and a virtual environment for dependency managem
 3.  **Install dependencies:**
     ```bash
     pip install -r requirements.txt
+    python -m ipykernel install --user --name=.venv --display-name="Python (.venv)"  # Create kernel spec
     ```
 
 4.  **Run a jupyter notebook:**
